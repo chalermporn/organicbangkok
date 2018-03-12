@@ -1,0 +1,96 @@
+// $bg-start: #9d9181;
+// $bg-end: #9e866c;
+// $card-bg: #e6e5e1;
+// $dribbble-color: #ea4b89;
+// $twitter-color: #68aade;
+// $facebook-color: #3b5999;
+// html {
+//   min-height: 100%;
+//   background: linear-gradient($bg-start, $bg-end);
+// }
+// body {
+//   background-color: transparent;
+// }
+// .card-profile {
+//   width: 340px;
+//   // margin: 50px auto;
+//   background-color: $card-bg;
+//   border-radius: 0;
+//   border: 0;
+//   // box-shadow: 1em 1em 2em rgba(0, 0, 0, .2);
+//   .card-img-top {
+//     border-radius: 0;
+//   }
+//   .card-img-profile {
+//     max-width: 100%;
+//     border-radius: 50%;
+//     margin-top: -95px;
+//     margin-bottom: 35px;
+//     border: 5px solid $card-bg;
+//   }
+//   .card-title {
+//     margin-bottom: 50px;
+//     small {
+//       display: block;
+//       font-size: .6em;
+//       margin-top: .2em;
+//     }
+//   }
+//   .card-links {
+//     margin-bottom: 25px;
+//     .fa {
+//       margin: 0 1em;
+//       font-size: 1.6em;
+//       &:focus,
+//       &:hover {
+//         text-decoration: none;
+//       }
+//       &.fa-dribbble {
+//         color: $dribbble-color;
+//         font-weight: bold;
+//         &:hover {
+//           color: darken($dribbble-color, 10%);
+//         }
+//       }
+//       &.fa-twitter {
+//         color: $twitter-color;
+//         &:hover {
+//           color: darken($twitter-color, 10%);
+//         }
+//       }
+//       &.fa-facebook {
+//         color: $facebook-color;
+//         &:hover {
+//           color: darken($facebook-color, 10%);
+//         }
+//       }
+//     }
+//   }
+// }
+.fb-profile .fb-image-lg {
+  z-index: 0;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 250px;
+  object-fit: cover;
+  background-position: top;
+  background-size: cover;
+}
+
+.fb-image-profile {
+  margin: -85px 16px 0px 50px;
+  z-index: 9;
+  width: 15%;
+}
+
+@media (max-width:768px) {
+  .fb-profile-text>h1 {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .fb-image-profile {
+    margin: -45px 10px 0px 25px;
+    z-index: 9;
+    width: 20%;
+  }
+}

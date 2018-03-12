@@ -1,0 +1,8 @@
+
+
+<ng-template #anonymousUser>
+  <app-please-login></app-please-login>
+</ng-template>
+<div class="fb-profile" *ngIf="appUser; else anonymousUser">
+    order-success works!
+</div>

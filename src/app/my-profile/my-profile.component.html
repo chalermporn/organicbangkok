@@ -1,0 +1,12 @@
+<ng-template #anonymousUser>
+  <app-please-login></app-please-login>
+</ng-template>
+<div class="fb-profile"  *ngIf="appUser; else anonymousUser">
+  <div align="left" class="fb-image-lg" style="background-image: url(https://ajonit-reviewofweb.netdna-ssl.com/wp-content/uploads/2014/08/wordpress-1600x800.jpg)"></div>
+   <img align="left" class="fb-image-profile thumbnail" [src]="appUser.photoURL" alt="Profile image example"/>
+  
+  <div class="fb-profile-text">
+    <h1>{{appUser.name}}</h1>
+    <p>{{appUser.email}}</p>
+  </div>
+</div>

@@ -1,0 +1,6 @@
+<ng-template #anonymousUser>
+  <app-please-login></app-please-login>
+</ng-template>
+<div class="fb-profile" *ngIf="appUser; else anonymousUser">
+  my-orders works!
+</div>
