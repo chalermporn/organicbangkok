@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
 
+## Example
+
+หลังจากทำการ login เข้าระบบแล้ว
+
+<p align="center"><img src ="Screen Shot 2561-03-12 at 17.22.16.png" /></p>
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
